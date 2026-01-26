@@ -22,3 +22,51 @@ body::before {
     pointer-events: none;
     z-index: -1;
 }
+
+.float-left {
+    float: left;
+    margin: 0 16px 12px 0;
+    max-width: 700px;
+    height: auto;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 12px 16px;
+    max-width: 700px;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.pic {
+    border: 1px solid #ccc;
+    padding: 6px;
+    background: #fff;
+    margin: 0 16px 12px 0;
+}
+
+.pic img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pic figcaption {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.pic a{
+  display: block;
+}
+
+.pic a:hover img{
+  opacity: 0.92;
+  cursor: zoom-in;
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KennyPeakRun.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>KennyPeak</name>
+		<open>1</open>
+		<Placemark>
+			<name>KennyPeakRun</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.7888714490286,40.87189163495326,0 -111.7895437420832,40.87133170994563,0 -111.7902497620426,40.87096877931645,0 -111.7909106889486,40.87034155065687,0 -111.7916968203085,40.86967681609099,0 -111.7922337207606,40.86932442310679,0 -111.7930109124716,40.86834678059496,0 -111.7929284818517,40.86689157631459,0 -111.7936468392061,40.86628178824745,0 -111.7946284826981,40.86563626447649,0 -111.7953636133707,40.86519640035513,0 -111.7961926423651,40.86487879608126,0 -111.7964630691611,40.8649753216443,0 -111.7964955666296,40.86506046872904,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>KennyPeakApproach</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.8366056090383,40.86388717007778,0 -111.8359781125919,40.86350667963107,0 -111.8348010287315,40.86320780891811,0 -111.8336939468349,40.86328154254863,0 -111.8319342540015,40.86290436490809,0 -111.8310049645391,40.8619293922843,0 -111.8304987317904,40.86060778848138,0 -111.8292789117065,40.8596390859673,0 -111.8272642334913,40.85828891720841,0 -111.8263184603591,40.85861097272016,0 -111.8260405737637,40.85892040825552,0 -111.8255589491594,40.85910712209322,0 -111.8250135876002,40.85945712399557,0 -111.8239514290278,40.85987758423044,0 -111.8230365871302,40.85996054355419,0 -111.8222149028985,40.86030566993318,0 -111.8214023480364,40.86114486285286,0 -111.8206783445085,40.86162641244812,0 -111.817723578651,40.86300717255866,0 -111.8137253034638,40.86489886672322,0 -111.8112563814807,40.86596152296175,0 -111.8094858768052,40.86690299039543,0 -111.8086514557648,40.86719482182173,0 -111.8072999681718,40.86786741873379,0 -111.8063752939487,40.86835350154963,0 -111.805599803251,40.86873412757063,0 -111.8047262661251,40.86865898886982,0 -111.80377432725,40.86869338194304,0 -111.8030817001649,40.86860067174869,0 -111.8023448965747,40.86857348005434,0 -111.8012104604815,40.86883414891121,0 -111.8002435814288,40.8694533401237,0 -111.7994638482078,40.87015183363556,0 -111.7990070270627,40.87086972597407,0 -111.7980024762559,40.8714965187744,0 -111.7967685449296,40.87193854542992,0 -111.7956911942885,40.87234107568811,0 -111.7937219896445,40.87270596898922,0 -111.7924593788736,40.8727759730032,0 -111.7913630316241,40.87238150442707,0 -111.7903577205033,40.87212387397635,0 -111.7893887863549,40.87206723047122,0 -111.7887081087389,40.87207397569343,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>

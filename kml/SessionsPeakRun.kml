@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SessionsPeakRun.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>SessionsPeak</name>
+		<open>1</open>
+		<Placemark>
+			<name>KennyPeakApproach</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.8366056090383,40.86388717007778,0 -111.8359781125919,40.86350667963107,0 -111.8348010287315,40.86320780891811,0 -111.8336939468349,40.86328154254863,0 -111.8319342540015,40.86290436490809,0 -111.8310049645391,40.8619293922843,0 -111.8304987317904,40.86060778848138,0 -111.8292789117065,40.8596390859673,0 -111.8272642334913,40.85828891720841,0 -111.8263184603591,40.85861097272016,0 -111.8260405737637,40.85892040825552,0 -111.8255589491594,40.85910712209322,0 -111.8250135876002,40.85945712399557,0 -111.8239514290278,40.85987758423044,0 -111.8230365871302,40.85996054355419,0 -111.8222149028985,40.86030566993318,0 -111.8214023480364,40.86114486285286,0 -111.8206783445085,40.86162641244812,0 -111.817723578651,40.86300717255866,0 -111.8137253034638,40.86489886672322,0 -111.8112563814807,40.86596152296175,0 -111.8094858768052,40.86690299039543,0 -111.8086514557648,40.86719482182173,0 -111.8072999681718,40.86786741873379,0 -111.8063752939487,40.86835350154963,0 -111.805599803251,40.86873412757063,0 -111.8047262661251,40.86865898886982,0 -111.80377432725,40.86869338194304,0 -111.8030817001649,40.86860067174869,0 -111.8023448965747,40.86857348005434,0 -111.8012104604815,40.86883414891121,0 -111.8002435814288,40.8694533401237,0 -111.7994638482078,40.87015183363556,0 -111.7990070270627,40.87086972597407,0 -111.7980024762559,40.8714965187744,0 -111.7967685449296,40.87193854542992,0 -111.7956911942885,40.87234107568811,0 -111.7937219896445,40.87270596898922,0 -111.7924593788736,40.8727759730032,0 -111.7913630316241,40.87238150442707,0 -111.7903577205033,40.87212387397635,0 -111.7893887863549,40.87206723047122,0 -111.7887081087389,40.87207397569343,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Run1</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.7884982943198,40.87202672537583,0 -111.7886336887626,40.87161520006943,0 -111.7888456055206,40.87098515479597,0 -111.7889601144074,40.87005461740378,0 -111.7888368172651,40.86968756304746,0 -111.7883027596863,40.86943991842259,0 -111.7874911690146,40.86930579002536,0 -111.7863382154321,40.86907191141585,0 -111.7856740513627,40.8690326978252,0 -111.7846972105058,40.86887837856417,0 -111.7838114650635,40.86873347403274,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Run2</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.7872798175547,40.87293233199726,0 -111.7868483897191,40.87262892975779,0 -111.7865029687565,40.87232430841849,0 -111.7862758262428,40.87202492306345,0 -111.7859395065404,40.87169880704652,0 -111.7854492156595,40.87116932028484,0 -111.7847789289481,40.87043607248554,0 -111.7842022164652,40.86998782313277,0 -111.7835321648307,40.86940826817855,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>SessionsPeakRun</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.7741825638465,40.87126611218312,0 -111.7747428745152,40.87084675182034,0 -111.7756116691408,40.87033333009029,0 -111.7763150379278,40.86999915766082,0 -111.7772433417565,40.86963291041168,0 -111.7780288337277,40.86917632302908,0 -111.7794380008216,40.86844889807635,0 -111.7802595869744,40.86811912954364,0 -111.781243923906,40.86810395106046,0 -111.7821422883062,40.86834555827355,0 -111.782986159936,40.86887687308101,0 -111.7832533043339,40.86917152091616,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ExitRun</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.7835007571349,40.86888004840053,0 -111.7843882251432,40.86687620525896,0 -111.7849247770039,40.86513578847564,0 -111.785949863321,40.86360945595509,0 -111.7866584110119,40.8628206620377,0 -111.7869757143563,40.86245537927169,0 -111.7870948309739,40.86232390858559,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ExitClimb</name>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.787195800829,40.86234377084201,0 -111.787448745963,40.86241316449024,0 -111.7878362771801,40.8623432780375,0 -111.7885130025615,40.86238983074815,0 -111.7890636246132,40.86252009796291,0 -111.7895856621397,40.8624482692481,0 -111.790254962628,40.86214375322387,0 -111.7905160955013,40.86267649711999,0 -111.7910240004712,40.86241587665506,0 -111.7915263481715,40.86305725526986,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ExitRun2</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.7915783543832,40.86312485516564,0 -111.7924707125077,40.8635737424441,0 -111.7931630785739,40.86392302039636,0 -111.7938231120623,40.8644079968867,0 -111.7938396123111,40.86444657128703,0 -111.7946295711152,40.86465436608081,0 -111.7953971398153,40.8651127599035,0 -111.7964339842358,40.86512908628293,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>SessionsPeakRidgeApproach</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-111.7885004647232,40.8721911218827,0 -111.7875580080525,40.87288497782746,0 -111.7865777384585,40.87349359776446,0 -111.7862418589795,40.87363916409044,0 -111.7854018717169,40.87388449515069,0 -111.7843845395592,40.87412072728973,0 -111.7832623635312,40.87421571487848,0 -111.7823749347328,40.87418132486857,0 -111.7816280907302,40.87438288105538,0 -111.7803181939954,40.87449813810228,0 -111.7798744469775,40.87429679166338,0 -111.7793225022504,40.87360711012533,0 -111.7786754799985,40.87299265335704,0 -111.7778573276521,40.87262800946428,0 -111.7773638076425,40.87251170292284,0 -111.7768369021977,40.8722548492642,0 -111.7760899994357,40.87178869872886,0 -111.7756509714008,40.87149237360004,0 -111.7751496594313,40.871308788096,0 -111.7744457945738,40.87128563748512,0 -111.7741593630771,40.87132760137309,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>
